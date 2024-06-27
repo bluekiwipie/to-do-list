@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+form {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+
+@keyframes add {
+  0% {color: blue;}
+  50% {color: yellow;}
+  100% {color: red;}
+}
+  button:hover {
+    animation-name:add;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-direction-value:normal;
+    animation-timing-function:ease-in
+  }
+
+@keyframes to-do{
+   0% {color: red;}
+    50% {color: yellow;}
+    100% {color: blue;}
+  }
+h1:hover {
+  animation-name:to-do;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+  animation-direction:normal;
+  animation-timing-function:ease-in
+}
+
+h1{color:beige;
+  font-size: 350%;
+  border: lightcoral 20px solid;
+  font-family: cursive;}
+
+body{background-color:lightblue;}
+
+button{color:lightslategrey;
+       border: floralwhite 5px solid;
+       border-radius: 20px;
+}
